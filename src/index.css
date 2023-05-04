@@ -26,6 +26,13 @@ html {
   font-family: 'Exo 2', sans-serif;
 }
 
+.a-tag {
+  color: black !important;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 
 
 

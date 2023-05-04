@@ -40,12 +40,14 @@ export function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link a-tag" href="#">
                 Link
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active">About Me</a>
+              <a className="nav-link active a-tag" href="#">
+                About Me
+              </a>
             </li>
             {/* <button
               className="navbar-toggler"
