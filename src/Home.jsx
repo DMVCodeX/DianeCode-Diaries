@@ -40,7 +40,7 @@ export function Home() {
           </h2>
         </a>
 
-        <a className="a-tag" href={"/blog"} target="_blank" rel="noreferrer">
+        <a className="a-tag" href="/blog" rel="noreferrer">
           <h2 className="center-text pink-font m-4 d-inline">
             {" "}
             Blog{" "}
