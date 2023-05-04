@@ -1,11 +1,9 @@
 export function AboutMe() {
   return (
-    <div>
-      <h1 className="center-text main-heading m-3">Diane Code Diaries</h1>
-
-      <h1 className="center-text m-3">About Me</h1>
-
-      <img className="center-image" src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
+    <div className="container-fluid">
+      <h1 className="center-text main-heading m-3">Under Construction</h1>
+      <p className="center-text m-3">Hi my name is Diane. I am a Junior Full-Stack Software Engineer</p>
+      <img className="center-image" src="https://img.icons8.com/?size=512&id=17504&format=png" alt="" />
     </div>
   );
 }

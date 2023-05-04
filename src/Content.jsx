@@ -8,6 +8,7 @@ export function Content() {
       <Routes>
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );

@@ -5,6 +5,12 @@ export function Header() {
         <nav>
           <ul className="nav justify-content-center">
             <li className="nav-item">
+              <a className="nav-link a-tag" href="/home">
+                Home
+              </a>
+            </li>
+
+            <li className="nav-item">
               <a
                 className="nav-link brand"
                 aria-current="page"
@@ -37,11 +43,6 @@ export function Header() {
                   height="35"
                   className="d-inline-block align-text-top"
                 />
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link a-tag" href="#">
-                Link
               </a>
             </li>
             <li className="nav-item">
