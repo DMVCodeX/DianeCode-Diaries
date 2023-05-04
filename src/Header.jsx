@@ -50,6 +50,19 @@ export function Header() {
                 About Me
               </a>
             </li>
+
+            {/* <li className="nav-item">
+              <a className="nav-link active a-tag" href="/aboutme">
+                Blog
+                <img
+                  className=""
+                  src="https://img.icons8.com/?size=512&id=NvKD1nx5oUzn&format=png"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+              </a>
+            </li> */}
             {/* <button
               className="navbar-toggler"
               type="button"

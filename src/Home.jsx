@@ -2,30 +2,58 @@ export function Home() {
   return (
     <div className="container-fluid">
       <h1 className="center-text main-heading m-4">Dianes Code Diaries</h1>
+      <img className=" rounded-5 center-image " src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
 
-      <img className=" rounded-5 center-image" src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
-      <a
-        className="a-tag"
-        href={
-          "https://docs.google.com/document/d/1gchmlZLRTPBWpAXw1CxJoviSzonqgOLx/edit?usp=sharing&ouid=109020970947806247945&rtpof=true&sd=true"
-        }
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h2 className="center-text pink-font m-5">
-          {" "}
-          Resume{" "}
-          <img className="" src="https://img.icons8.com/?size=512&id=24239&format=png" alt="" width="40" height="40" />
-        </h2>
-      </a>
+      <div className="center-text m-5">
+        <a
+          className="a-tag"
+          href={
+            "https://docs.google.com/document/d/1gchmlZLRTPBWpAXw1CxJoviSzonqgOLx/edit?usp=sharing&ouid=109020970947806247945&rtpof=true&sd=true"
+          }
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h2 className="center-text pink-font m-4 d-inline">
+            {" "}
+            Resume{" "}
+            <img
+              className=""
+              src="https://img.icons8.com/?size=512&id=24239&format=png"
+              alt=""
+              width="40"
+              height="40"
+            />
+          </h2>
+        </a>
 
-      <a className="a-tag" href={"https://fitgenie.netlify.app/"} target="_blank" rel="noreferrer">
-        <h2 className="center-text pink-font m-5">
-          {" "}
-          FitGenie App{" "}
-          <img className="" src="https://img.icons8.com/?size=512&id=23938&format=png" alt="" width="40" height="40" />
-        </h2>
-      </a>
+        <a className="a-tag" href={"https://fitgenie.netlify.app/"} target="_blank" rel="noreferrer">
+          <h2 className="center-text pink-font m-4 d-inline">
+            {" "}
+            FitGenie App{" "}
+            <img
+              className=""
+              src="https://img.icons8.com/?size=512&id=23938&format=png"
+              alt=""
+              width="40"
+              height="40"
+            />
+          </h2>
+        </a>
+
+        <a className="a-tag" href={"/blog"} target="_blank" rel="noreferrer">
+          <h2 className="center-text pink-font m-4 d-inline">
+            {" "}
+            Blog{" "}
+            <img
+              className=""
+              src="https://img.icons8.com/?size=512&id=NvKD1nx5oUzn&format=png"
+              alt=""
+              width="40"
+              height="40"
+            />
+          </h2>
+        </a>
+      </div>
 
       <h2 className="center-text m-4 "> Tech Stack</h2>
       <div className="row row-cols-1 row-cols-md-2 g-4">
