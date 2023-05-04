@@ -6,7 +6,9 @@ export function Home() {
       <img className=" rounded-5 center-image" src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
       <a
         className="a-tag"
-        href={"https://docs.google.com/document/d/1gchmlZLRTPBWpAXw1CxJoviSzonqgOLx/edit"}
+        href={
+          "https://docs.google.com/document/d/1gchmlZLRTPBWpAXw1CxJoviSzonqgOLx/edit?usp=sharing&ouid=109020970947806247945&rtpof=true&sd=true"
+        }
         target="_blank"
         rel="noreferrer"
       >
