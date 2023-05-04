@@ -14,7 +14,7 @@ export function Home() {
           rel="noreferrer"
         >
           {/* Link PDF */}
-          <h3 className="center-text pink-font m-1 d-inline">
+          <h4 className="center-text pink-font m-1 d-inline">
             {" "}
             Resume{" "}
             <img
@@ -24,11 +24,11 @@ export function Home() {
               width="40"
               height="40"
             />
-          </h3>
+          </h4>
         </a>
 
         <a className="a-tag" href={"https://fitgenie.netlify.app/"} target="_blank" rel="noreferrer">
-          <h3 className="center-text pink-font m-1 d-inline">
+          <h4 className="center-text pink-font m-1 d-inline">
             {" "}
             FitGenie App{" "}
             <img
@@ -38,11 +38,11 @@ export function Home() {
               width="40"
               height="40"
             />
-          </h3>
+          </h4>
         </a>
 
         <a className="a-tag" href="/blog" rel="noreferrer">
-          <h3 className="center-text pink-font m-1 d-inline">
+          <h4 className="center-text pink-font m-1 d-inline">
             {" "}
             Blog{" "}
             <img
@@ -52,7 +52,7 @@ export function Home() {
               width="40"
               height="40"
             />
-          </h3>
+          </h4>
         </a>
       </div>
 
