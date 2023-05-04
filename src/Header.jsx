@@ -5,8 +5,38 @@ export function Header() {
         <nav>
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Active
+              <a
+                className="nav-link brand"
+                aria-current="page"
+                href={"https://github.com/DMVCodeX"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/?size=512&id=16318&format=png"
+                  alt=""
+                  width="35"
+                  height="35"
+                  className="d-inline-block align-text-top"
+                />
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a
+                className="nav-link brand"
+                aria-current="page"
+                href={"https://www.linkedin.com/in/dianellyventura/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/?size=512&id=16166&format=png"
+                  alt=""
+                  width="35"
+                  height="35"
+                  className="d-inline-block align-text-top"
+                />
               </a>
             </li>
             <li className="nav-item">
@@ -15,14 +45,9 @@ export function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <a className="nav-link active">About Me</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
-            </li>
-            <button
+            {/* <button
               className="navbar-toggler"
               type="button"
               data-bs-toggle="offcanvas"
@@ -90,7 +115,7 @@ export function Header() {
                   </button>
                 </form>
               </div>
-            </div>
+            </div> */}
           </ul>
         </nav>
       </div>
