@@ -13,6 +13,7 @@ export function Home() {
           target="_blank"
           rel="noreferrer"
         >
+          {/* Link PDF */}
           <h2 className="center-text pink-font m-4 d-inline">
             {" "}
             Resume{" "}
