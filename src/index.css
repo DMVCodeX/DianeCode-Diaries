@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
+.center-text {
+  text-align: center;
+}
 
 
 
