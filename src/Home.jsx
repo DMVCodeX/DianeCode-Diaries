@@ -17,6 +17,14 @@ export function Home() {
         </h2>
       </a>
 
+      <a className="a-tag" href={"https://fitgenie.netlify.app/"} target="_blank" rel="noreferrer">
+        <h2 className="center-text pink-font m-5">
+          {" "}
+          FitGenie App{" "}
+          <img className="" src="https://img.icons8.com/?size=512&id=23938&format=png" alt="" width="40" height="40" />
+        </h2>
+      </a>
+
       <h2 className="center-text m-4 "> Tech Stack</h2>
       <div className="row row-cols-1 row-cols-md-2 g-4">
         <div className="col">
