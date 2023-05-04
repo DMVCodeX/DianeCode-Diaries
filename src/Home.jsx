@@ -16,38 +16,102 @@ export function Home() {
           <img className="" src="https://img.icons8.com/?size=512&id=24239&format=png" alt="" width="40" height="40" />
         </h2>
       </a>
-      <h2 className="center-text m-4"> Tech Stack</h2>
-      <h3 className="center-text pink-font m-3"> Backend:</h3>
-      <h5 className="center-text">
-        Ruby <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h3 className="center-text pink-font m-3"> Frontend:</h3>
-      <h5 className="center-text">
-        JavaScrpit{" "}
-        <img src="https://img.icons8.com/?size=512&id=WOB9D18y7S7J&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h5 className="center-text">
-        HTML <img src="https://img.icons8.com/?size=512&id=2778&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h5 className="center-text">
-        CSS <img src="https://img.icons8.com/?size=512&id=38273&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h3 className="center-text pink-font m-3"> Database:</h3>
-      <h5 className="center-text">
-        PostgreSQL <img src="https://img.icons8.com/?size=512&id=38600&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h3 className="center-text pink-font m-3"> Frameworks:</h3>
-      <h5 className="center-text">
-        Ruby on Rails{" "}
-        <img src="https://img.icons8.com/?size=512&id=ZMFmFsekpKfY&format=png" alt="" width="35" height="35" />
-      </h5>
-      <h5 className="center-text">
-        React.js <img src="https://img.icons8.com/?size=512&id=58811&format=png" alt="" width="30" height="30" />
-      </h5>
-      <h5 className="center-text">
-        Bootstrap{" "}
-        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="30" height="30" />
-      </h5>
+
+      <h2 className="center-text m-4 "> Tech Stack</h2>
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title pink-font">Backend</h3>
+              <p className="card-text">
+                <ul>
+                  <li>
+                    {" "}
+                    Ruby{" "}
+                    <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title pink-font">Database</h3>
+              <p className="card-text">
+                <ul>
+                  <li>
+                    PostgreSQL{" "}
+                    <img src="https://img.icons8.com/?size=512&id=38600&format=png" alt="" width="30" height="30" />
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title pink-font">Frontend</h3>
+              <p className="card-text">
+                <ul>
+                  <li>
+                    {" "}
+                    JavaScrpit{" "}
+                    <img
+                      src="https://img.icons8.com/?size=512&id=WOB9D18y7S7J&format=png"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li>
+                    HTML <img src="https://img.icons8.com/?size=512&id=2778&format=png" alt="" width="30" height="30" />
+                  </li>
+                  <li>
+                    CSS <img src="https://img.icons8.com/?size=512&id=38273&format=png" alt="" width="30" height="30" />
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title pink-font">Frameworks</h3>
+              <p className="card-text">
+                <ul>
+                  <li>
+                    Ruby on Rails{" "}
+                    <img
+                      src="https://img.icons8.com/?size=512&id=ZMFmFsekpKfY&format=png"
+                      alt=""
+                      width="35"
+                      height="35"
+                    />
+                  </li>
+                  <li>
+                    React.js{" "}
+                    <img src="https://img.icons8.com/?size=512&id=58811&format=png" alt="" width="30" height="30" />
+                  </li>
+
+                  <li>
+                    Bootstrap{" "}
+                    <img
+                      src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
