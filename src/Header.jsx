@@ -45,7 +45,7 @@ export function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active a-tag" href="#">
+              <a className="nav-link active a-tag" href="/aboutme">
                 About Me
               </a>
             </li>

@@ -1,8 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import { AboutMe } from "./AboutMe";
+import { Home } from "./Home";
+
 export function Content() {
   return (
     <div className="container-fluid">
-      <h1 className="center-text main-heading">Diane Code Diaries</h1>
-      <img className="center-image" src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
+      <Routes>
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
