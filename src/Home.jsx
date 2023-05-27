@@ -72,6 +72,16 @@ export function Home() {
                     Ruby{" "}
                     <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
                   </li>
+                  <li>
+                    {" "}
+                    JavaScrpit OOP{" "}
+                    <img
+                      src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </li>
                 </ul>
               </p>
             </div>
@@ -85,7 +95,25 @@ export function Home() {
                 <ul>
                   <li>
                     PostgreSQL{" "}
-                    <img src="https://img.icons8.com/?size=512&id=38600&format=png" alt="" width="30" height="30" />
+                    <img src="https://img.icons8.com/?size=512&id=38561&format=png" alt="" width="30" height="30" />
+                  </li>
+                  <li>
+                    Prisma{" "}
+                    <img
+                      src="https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png"
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li>
+                    MySQL{" "}
+                    <img
+                      src="https://img.icons8.com/?size=512&id=UFXRpPFebwa2&format=png"
+                      alt=""
+                      width="40"
+                      height="40"
+                    />
                   </li>
                 </ul>
               </p>
@@ -102,17 +130,18 @@ export function Home() {
                     {" "}
                     JavaScrpit{" "}
                     <img
-                      src="https://img.icons8.com/?size=512&id=WOB9D18y7S7J&format=png"
+                      src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png"
                       alt=""
                       width="30"
                       height="30"
                     />
                   </li>
                   <li>
-                    HTML <img src="https://img.icons8.com/?size=512&id=2778&format=png" alt="" width="30" height="30" />
+                    HTML5{" "}
+                    <img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="" width="30" height="30" />
                   </li>
                   <li>
-                    CSS <img src="https://img.icons8.com/?size=512&id=38273&format=png" alt="" width="30" height="30" />
+                    CSS <img src="https://img.icons8.com/?size=1x&id=21278&format=png" alt="" width="30" height="30" />
                   </li>
                 </ul>
               </p>
@@ -135,8 +164,17 @@ export function Home() {
                     />
                   </li>
                   <li>
+                    Express.js{" "}
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg=="
+                      alt=""
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li>
                     React.js{" "}
-                    <img src="https://img.icons8.com/?size=512&id=58811&format=png" alt="" width="30" height="30" />
+                    <img src="https://img.icons8.com/?size=512&id=123603&format=png" alt="" width="30" height="30" />
                   </li>
 
                   <li>
