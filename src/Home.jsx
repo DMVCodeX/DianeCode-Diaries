@@ -2,7 +2,7 @@ export function Home() {
   return (
     <div className="container-fluid">
       <h1 className="center-text main-heading m-4">Dianes Code Diaries</h1>
-      <img className=" rounded-5 center-image " src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
+      <img className=" rounded-3 center-image " src="https://avatars.githubusercontent.com/u/122197490?v=4" alt="" />
 
       <div className="center-text m-5">
         <a
