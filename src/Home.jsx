@@ -60,62 +60,35 @@ export function Home() {
 
       <hr />
 
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="row row-cols-md-1 g-4 center-text">
         <div className="col">
           <div className="card">
             <div className="card-body">
               <h3 className="card-title pink-font">Backend</h3>
               <p className="card-text">
-                <ul>
-                  <li>
-                    {" "}
-                    Ruby{" "}
-                    <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
-                  </li>
-                  <li>
-                    {" "}
-                    JavaScrpit OOP{" "}
-                    <img
-                      src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png"
-                      alt=""
-                      width="30"
-                      height="30"
-                    />
-                  </li>
-                </ul>
+                {" "}
+                Ruby <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
+                <br />
+                JavaScrpit OOP{" "}
+                <img src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png" alt="" width="30" height="30" />
               </p>
             </div>
           </div>
         </div>
+        <br />
         <div className="col">
           <div className="card">
             <div className="card-body">
               <h3 className="card-title pink-font">Database</h3>
               <p className="card-text">
-                <ul>
-                  <li>
-                    PostgreSQL{" "}
-                    <img src="https://img.icons8.com/?size=512&id=38561&format=png" alt="" width="30" height="30" />
-                  </li>
-                  <li>
-                    Prisma{" "}
-                    <img
-                      src="https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png"
-                      alt=""
-                      width="30"
-                      height="30"
-                    />
-                  </li>
-                  <li>
-                    MySQL{" "}
-                    <img
-                      src="https://img.icons8.com/?size=512&id=UFXRpPFebwa2&format=png"
-                      alt=""
-                      width="40"
-                      height="40"
-                    />
-                  </li>
-                </ul>
+                PostgreSQL{" "}
+                <img src="https://img.icons8.com/?size=512&id=38561&format=png" alt="" width="30" height="30" />
+                <br />
+                Prisma{" "}
+                <img src="https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png" alt="" width="30" height="30" />
+                <br />
+                MySQL{" "}
+                <img src="https://img.icons8.com/?size=512&id=UFXRpPFebwa2&format=png" alt="" width="40" height="40" />
               </p>
             </div>
           </div>
@@ -125,25 +98,13 @@ export function Home() {
             <div className="card-body">
               <h3 className="card-title pink-font">Frontend</h3>
               <p className="card-text">
-                <ul>
-                  <li>
-                    {" "}
-                    JavaScrpit{" "}
-                    <img
-                      src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png"
-                      alt=""
-                      width="30"
-                      height="30"
-                    />
-                  </li>
-                  <li>
-                    HTML5{" "}
-                    <img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="" width="30" height="30" />
-                  </li>
-                  <li>
-                    CSS <img src="https://img.icons8.com/?size=1x&id=21278&format=png" alt="" width="30" height="30" />
-                  </li>
-                </ul>
+                {" "}
+                JavaScrpit{" "}
+                <img src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png" alt="" width="30" height="30" />
+                <br />
+                HTML5 <img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="" width="30" height="30" />
+                <br />
+                CSS <img src="https://img.icons8.com/?size=1x&id=21278&format=png" alt="" width="30" height="30" />
               </p>
             </div>
           </div>
@@ -153,40 +114,27 @@ export function Home() {
             <div className="card-body">
               <h3 className="card-title pink-font">Frameworks</h3>
               <p className="card-text">
-                <ul>
-                  <li>
-                    Ruby on Rails{" "}
-                    <img
-                      src="https://img.icons8.com/?size=512&id=ZMFmFsekpKfY&format=png"
-                      alt=""
-                      width="35"
-                      height="35"
-                    />
-                  </li>
-                  <li>
-                    Express.js{" "}
-                    <img
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg=="
-                      alt=""
-                      width="30"
-                      height="30"
-                    />
-                  </li>
-                  <li>
-                    React.js{" "}
-                    <img src="https://img.icons8.com/?size=512&id=123603&format=png" alt="" width="30" height="30" />
-                  </li>
-
-                  <li>
-                    Bootstrap{" "}
-                    <img
-                      src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
-                      alt=""
-                      width="30"
-                      height="30"
-                    />
-                  </li>
-                </ul>
+                Ruby on Rails{" "}
+                <img src="https://img.icons8.com/?size=512&id=ZMFmFsekpKfY&format=png" alt="" width="35" height="35" />
+                <br />
+                Express.js{" "}
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX////q6uqgoaEZGhtzc3SSk5Ourq5hYmLHx8f09PVOTk+7u7vf39+DhITT09M3ODgiPZ4kAAAAxElEQVR4Ac2OMQgBARSGv6sDQfbSKaWsHsgV6vZS9lK3F9lL2ctsvcmm7GWfyF5XNhvTbef+yT7x1ft7/f3/6/HHOC3r1gnmQLhGamYjDj5U7ALk7UbD4tp4T2EA4EnDFeGMxQygdQWqEwp+OQsBkXrlAU76nAA4Y2mlB2drotVMDMHN5mtMwbMYVeQjNsEKkaJcm3wv10fcl4Dr8zgSnQB2L/RYKdrKA3LW0etun6yFCMwsyTK6qzrFu733xbQOeAk/4gMf6S1GJRc9sQAAAABJRU5ErkJggg=="
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+                <br />
+                React.js{" "}
+                <img src="https://img.icons8.com/?size=512&id=123603&format=png" alt="" width="30" height="30" />
+                <br />
+                Bootstrap{" "}
+                <img
+                  src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+                  alt=""
+                  width="30"
+                  height="30"
+                />
               </p>
             </div>
           </div>
