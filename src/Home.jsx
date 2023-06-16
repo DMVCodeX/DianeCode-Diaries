@@ -71,6 +71,9 @@ export function Home() {
                 <br />
                 JavaScrpit OOP{" "}
                 <img src="https://img.icons8.com/?size=512&id=RwtOBojoLS2N&format=png" alt="" width="30" height="30" />
+                <br />
+                Python <img src="https://img.icons8.com/?size=512&id=13441&format=png" alt="" width="30" height="30" />
+                <br />
               </p>
             </div>
           </div>
