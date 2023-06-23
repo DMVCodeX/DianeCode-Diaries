@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { AboutMe } from "./AboutMe";
 import { Home } from "./Home";
 import { Blog } from "./Blog";
+import { Projects } from "./Projects";
 
 export function Content() {
   return (
@@ -11,6 +12,7 @@ export function Content() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ export function Header() {
               </a>
             </li>
 
-            <li className="nav-item">
+            <li id="GitHub-Portfolio" className="nav-item">
               <a
                 className="nav-link brand"
                 aria-current="page"
