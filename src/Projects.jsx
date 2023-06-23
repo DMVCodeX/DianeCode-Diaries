@@ -28,7 +28,7 @@ export function Projects() {
             </a>
             <br />
             <h5>
-              FitGenie is fitness application designed to enhance the efficiency of gym planning and workout routines
+              FitGenie is a fitness application designed to enhance the efficiency of gym planning and workout routines
               through its user-friendly interface, empowering users to effortlessly customize and manage their
               individualized workout plans.
             </h5>
