@@ -12,19 +12,23 @@ export function Projects() {
         />
         <hr />
         <div className="center-text m-5">
+          <p>
+            Click the link in image below to navigate to the Live FitGenie App{" "}
+            <img height="40" width="40" src="https://cdn-icons-png.flaticon.com/128/7663/7663989.png" alt="" />
+          </p>
           <div>
             <a className="a-tag" href={"https://fitgenie.netlify.app/"} target="_blank" rel="noreferrer">
-              <h2 className="center-text pink-font m-1">
+              <h1 className="center-text pink-font m-1">
                 {" "}
                 FitGenie App{" "}
                 <img
                   className=""
                   src="https://img.icons8.com/?size=512&id=23938&format=png"
                   alt=""
-                  width="40"
-                  height="40"
+                  width="70"
+                  height="70"
                 />
-              </h2>
+              </h1>
             </a>
             <br />
             <h5>
@@ -61,7 +65,7 @@ export function Projects() {
 
           <br />
           <div>
-            <a className="a-tag" href="/blog" rel="noreferrer">
+            <a className="a-tag" href="https://github.com/DMVCodeX" target="_blank" rel="noreferrer">
               <h2 className="center-text pink-font m-1">
                 {" "}
                 Github Portfolio{" "}
