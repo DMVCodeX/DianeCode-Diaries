@@ -48,7 +48,7 @@ export function Home() {
 
       <div className="row row-cols-md-2 g-4 center-text">
         <div className="col">
-          <div className="card p-3">
+          <div className="card w-80 h-100 p-3">
             <div className="card-body">
               <h3 className="card-title pink-font">Backend</h3>
               <p className="card-text">
@@ -66,7 +66,7 @@ export function Home() {
         </div>
         <br />
         <div className="col">
-          <div className="card p-3">
+          <div className="card w-80 h-100 p-3">
             <div className="card-body">
               <h3 className="card-title pink-font">Database</h3>
               <p className="card-text">
@@ -83,7 +83,7 @@ export function Home() {
           </div>
         </div>
         <div className="col">
-          <div className="card p-3">
+          <div className="card w-80 h-100 p-3">
             <div className="card-body">
               <h3 className="card-title pink-font">Frontend</h3>
               <p className="card-text">
@@ -100,7 +100,7 @@ export function Home() {
           </div>
         </div>
         <div className="col">
-          <div className="card p-3">
+          <div className="card w-80 h-100 p-3">
             <div className="card-body">
               <h3 className="card-title pink-font">Frameworks</h3>
               <p className="card-text">
