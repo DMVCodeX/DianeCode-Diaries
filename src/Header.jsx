@@ -5,7 +5,7 @@ export function Header() {
         <nav>
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <a className="nav-link a-tag" href="/home">
+              <a className="main-heading nav-link a-tag" href="/home">
                 Home
               </a>
             </li>
@@ -46,7 +46,7 @@ export function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active a-tag" href="/aboutme">
+              <a className="main-heading nav-link active a-tag" href="/aboutme">
                 About Me
               </a>
             </li>
