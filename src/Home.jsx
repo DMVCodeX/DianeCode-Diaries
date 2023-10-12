@@ -14,7 +14,7 @@ export function Home() {
           rel="noreferrer"
         >
           {/* Link PDF */}
-          <h3 className="center-text pink-font  d-inline">
+          <h3 className="center-text pink-font  d-inline  main-heading">
             {" "}
             Resume{" "}
             <img
@@ -28,7 +28,7 @@ export function Home() {
         </a>
 
         <a className="a-tag" href={"/projects"}>
-          <h3 className="center-text pink-font m-1 d-inline">
+          <h3 className="center-text pink-font m-1 d-inline main-heading">
             {" "}
             Projects{" "}
             <img
@@ -42,11 +42,11 @@ export function Home() {
         </a>
       </div>
       <hr />
-      <h2 className="center-text m-3 "> Tech Stack</h2>
+      <h2 className="center-text m-3  main-heading"> Tech Stack</h2>
 
       <hr />
 
-      <div className="row row-cols-md-1 g-4 center-text">
+      <div className="row row-cols-md-2 g-4 center-text">
         <div className="col">
           <div className="card">
             <div className="card-body">
