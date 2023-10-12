@@ -50,7 +50,7 @@ export function Home() {
         <div className="col">
           <div className="card w-80 h-100 p-3">
             <div className="card-body">
-              <h3 className="card-title pink-font">Backend</h3>
+              <h3 className="card-title pink-font main-heading">Backend</h3>
               <p className="card-text">
                 {" "}
                 Ruby <img src="https://img.icons8.com/?size=512&id=22189&format=png" alt="" width="30" height="30" />
@@ -68,7 +68,7 @@ export function Home() {
         <div className="col">
           <div className="card w-80 h-100 p-3">
             <div className="card-body">
-              <h3 className="card-title pink-font">Database</h3>
+              <h3 className="card-title pink-font main-heading">Database</h3>
               <p className="card-text">
                 PostgreSQL{" "}
                 <img src="https://img.icons8.com/?size=512&id=38561&format=png" alt="" width="30" height="30" />
@@ -85,7 +85,7 @@ export function Home() {
         <div className="col">
           <div className="card w-80 h-100 p-3">
             <div className="card-body">
-              <h3 className="card-title pink-font">Frontend</h3>
+              <h3 className="card-title pink-font main-heading">Frontend</h3>
               <p className="card-text">
                 {" "}
                 JavaScrpit{" "}
@@ -102,7 +102,7 @@ export function Home() {
         <div className="col">
           <div className="card w-80 h-100 p-3">
             <div className="card-body">
-              <h3 className="card-title pink-font">Frameworks</h3>
+              <h3 className="card-title pink-font main-heading">Frameworks</h3>
               <p className="card-text">
                 Ruby on Rails{" "}
                 <img src="https://img.icons8.com/?size=512&id=ZMFmFsekpKfY&format=png" alt="" width="35" height="35" />
