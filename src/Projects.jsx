@@ -66,7 +66,7 @@ export function Projects() {
           <br />
           <div>
             <a className="a-tag" href="https://github.com/DMVCodeX" target="_blank" rel="noreferrer">
-              <h2 className="center-text pink-font m-1">
+              <h1 className="center-text pink-font m-1">
                 {" "}
                 Github Portfolio{" "}
                 <img
@@ -76,7 +76,7 @@ export function Projects() {
                   width="40"
                   height="40"
                 />
-              </h2>
+              </h1>
             </a>
             <br />
           </div>
@@ -84,7 +84,7 @@ export function Projects() {
           <br />
 
           <a className="a-tag" href="/blog" rel="noreferrer">
-            <h2 className="center-text pink-font m-1">
+            <h1 className="center-text pink-font m-1">
               {" "}
               Blog{" "}
               <img
@@ -94,7 +94,7 @@ export function Projects() {
                 width="40"
                 height="40"
               />
-            </h2>
+            </h1>
           </a>
           <hr />
           <br />
