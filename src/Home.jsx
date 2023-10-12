@@ -19,7 +19,7 @@ export function Home() {
             Resume{" "}
             <img
               className=""
-              src="https://img.icons8.com/?size=512&id=24239&format=png"
+              src="https://cdn-icons-png.flaticon.com/128/8283/8283059.png"
               alt=""
               width="40"
               height="40"
@@ -33,7 +33,7 @@ export function Home() {
             Projects{" "}
             <img
               className=""
-              src="https://img.icons8.com/?size=512&id=GeviO79oz5Cd&format=png"
+              src="https://cdn-icons-png.flaticon.com/128/1087/1087927.png"
               alt=""
               width="40"
               height="40"
