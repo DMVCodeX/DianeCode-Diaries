@@ -53,9 +53,25 @@ export function Projects() {
                 <li>
                   Google Calendar Integration: Staying committed to your fitness regimen is a breeze with FitGenie. The
                   app seamlessly integrates with Google Calendar, enabling users to effortlessly schedule their workouts
-                  without leaving the platform. FitGenie is not just an app; it is your virtual fitness companion,
-                  simplifying gym planning, elevating workout experiences, and empowering you to reach your fitness
-                  milestones. Your journey to a healthier, more active lifestyle begins here.
+                  without leaving the platform.
+                </li>
+                <br />
+                <li>
+                  Macro Calculator: FitGenie goes beyond workouts. It features a built-in macro calculator that takes
+                  into account user details such as weight, height, age, and activity level to recommend personalized
+                  macronutrient intake (protein, carbs, and fats). This feature helps users optimize their nutrition for
+                  their fitness goals.
+                </li>
+                <br />
+                <li>
+                  Nutrition Guides: In addition to the macro calculator, FitGenie provides comprehensive nutrition
+                  guides to assist users in reaching their fitness goals. These guides offer valuable insights into
+                  making healthier dietary choices.
+                  <br />
+                  <br />
+                  FitGenie is not just an app; it is your virtual fitness companion, simplifying gym planning, elevating
+                  workout experiences, and empowering you to reach your fitness milestones. Your journey to a healthier,
+                  more active lifestyle begins here.
                 </li>
               </ol>
             </h5>
